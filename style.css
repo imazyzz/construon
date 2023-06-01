@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -30,7 +30,7 @@ header {
     width: 80%;
     padding: 0px 10%;
     z-index: 100;
-    background-color: #F26A24;
+    background: #F26A24;
 }
 
 header h3 {
@@ -68,6 +68,10 @@ header ul li a:hover,
 header ul li a.active {
     color: #ffffff;
     font-weight: 600;
+}
+
+#menu-icon {
+    display: none;
 }
 
 .home {
@@ -406,6 +410,29 @@ footer {
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.symbol a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #000000;
+    z-index: -1;
+    transition: .5s
+}
+
+.symbol a:hover {
+    color: #F26A24;
+    border: 2px solid;
+}
+
+.symbol a:hover::before {
+    width: 100%;
 }
 
 .symbol a:nth-child(1) {
@@ -500,9 +527,61 @@ footer {
     text-align: center;
 }
 
-.right-footer ul li a.active,
+
 .right-footer ul li a:hover {
-    text-decoration: underline;
     color: #000;
     font-weight: 700;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10%;
+}
+
+.footer-text p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 40px
+}
+
+.footer-text a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.footer-iconTop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background: #ffffff;
+    border: 3px solid #F26A24;
+    border-radius: 15px;
+    color: #F26A24;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.footer-iconTop a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #000000;
+    z-index: -1;
+    transition: .5s;
+}
+
+.footer-iconTop a:hover::before {
+    width: 100%;
+}
+
+.footer-iconTop a i {
+    font-size: 16px;
 }
