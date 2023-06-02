@@ -1,197 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConstruON</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ConstruON </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
+  <body>
     <main>
-        <header>
-            <h3>ConstruON.</h3>
+      <header>
+        <div class="header-img">
+          <img src="/images/logo-header.png" alt="" />
+        </div>
 
-            <div class='bx bx-menu' id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
-            <nav>
-                <ul>
-                    <li><a href="#home" class="active">Página Inicial</a></li>
-                    <li><a href="#quem">Quem Somos Nós? </a></li>
-                    <li><a href="#atuacao">Área de Atuação</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a href="contato.html">Contatos</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav>
+          <ul>
+            <li><a href="#home" class="active">Página Inicial</a></li>
+            <li><a href="#quem">Quem Somos Nós? </a></li>
+            <li><a href="#atuacao">Área de Atuação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="contato.html">Contatos</a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <section class="home" id="home">
-            <div class="home-content">
-                <h1>Nunca Foi Tão Fácil Construir Seu Sonho</h1>
-                <h3>Construindo com excelência e paixão para tornar seu sonho uma realidade, com um compromisso
-                    inabalável com a qualidade e satisfação dos nossos clientes.</h3>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Nunca Foi Tão Fácil Construir Seu Sonho</h1>
+          <h3>
+            Construindo com excelência e paixão para tornar seu sonho uma
+            realidade, com um compromisso inabalável com a qualidade e
+            satisfação dos nossos clientes.
+          </h3>
 
-                <div class="btn-box">
-                    <a href="#">Clique e Conheça</a>
-                </div>
+          <div class="btn-box">
+            <a href="#">Clique e Conheça</a>
+          </div>
+        </div>
+
+        <div class="home-sci">
+          <a
+            href="https://api.whatsapp.com/send?phone=5598921722222"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a href=""><i class="bx bxs-phone"></i></a>
+          <a href=""><i class="bx bxs-map"></i></a>
+        </div>
+
+        <span class="home-imgHover"></span>
+      </section>
+      <hr />
+
+      <section class="Quem" id="quem">
+        <div class="quem-content">
+          <h1>Conheça a ConstruON</h1>
+          <p>
+            Somos uma empresa genuinamente maranhense especializada em
+            Construções, Reformas e Manutenções. <br /><br />Criamos e
+            executamos seu projeto de forma personalizada sendo ele residencial,
+            coorporativo, hospitalar ou industrial.<br /><br />Para nós o mais
+            importante é garantir a satisfação de nossos clientes, para isso
+            criamos está plataforma online, otimizando processos desde a
+            contratação de serviços prestados por profissionais técnicos e
+            qualificados ao gerenciamento e acompanhamento de sua obra
+            diariamente por meio da plataforma. <br /><br />Pesamos de maneira
+            enxuta e, através da inovação, colaboramos com o crescimento e o
+            desenvolvimento do Maranhão, profissionais autônomos e qualificados
+            tem oportunidade de conectarem-se a nossa empresa por meio de
+            cadastramento disponível na plataforma on-line. <br /><br />A
+            realização do seu sonho está a apenas um clique!
+          </p>
+        </div>
+        <div class="quem-image">
+          <img src="/images/constructions.jfif" />
+        </div>
+      </section>
+
+      <section id="atuacao">
+        <div class="area-de-atuacao">
+          <h1>Áreas de Atuação</h1>
+          <div class="item-block">
+            <div class="item">
+              <img src="/images/hidrante.png" alt="Hidrante" />
+              <p>Projetos de Prevenção e Combate a Incêndio.</p>
             </div>
-
-            <div class="home-sci">
-                <a href="https://api.whatsapp.com/send?phone=5598921722222" target="_blank"><i
-                        class='bx bxl-whatsapp'></i></a>
-                <a href=""><i class='bx bxs-phone'></i></a>
-                <a href=""><i class='bx bxs-map'></i></a>
+            <div class="item">
+              <img src="/images/pilares.png" alt="Pilares" />
+              <p>Projetos Estruturais.</p>
             </div>
-
-            <span class="home-imgHover"></span>
-        </section>
-        <hr>
-
-        <section class="Quem" id="quem">
-            <div class="quem-content">
-                <h1>Conheça a ConstruON</h1>
-                <p>
-                    Somos uma empresa genuinamente maranhense
-                    especializada em Construções, Reformas e
-                    Manutenções. <br><br>Criamos e executamos seu projeto
-                    de forma personalizada sendo ele residencial,
-                    coorporativo, hospitalar ou industrial.<br><br>Para nós o
-                    mais importante é garantir a satisfação de nossos
-                    clientes, para isso criamos está plataforma online, otimizando processos desde a contratação
-                    de serviços prestados por profissionais técnicos
-                    e qualificados ao gerenciamento e
-                    acompanhamento de sua obra diariamente por
-                    meio da plataforma. <br><br>Pesamos de maneira enxuta
-                    e, através da inovação, colaboramos com o
-                    crescimento e o desenvolvimento do Maranhão,
-                    profissionais autônomos e qualificados tem
-                    oportunidade de conectarem-se a nossa empresa
-                    por meio de cadastramento disponível na
-                    plataforma on-line. <br><br>A realização do seu sonho
-                    está a apenas um clique!
-
-                </p>
+            <div class="item">
+              <img src="/images/planejamento.png" alt="Planejamento" />
+              <p>Planejamentos de Obras.</p>
             </div>
-            <div class="quem-image">
-                <img src="/images/constructions.jfif">
+            <div class="item">
+              <img src="/images/plano-de-projeto.png" alt="Projeto" />
+              <p>Projetos Arquitetônicos.</p>
             </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
-
-        <section id="atuacao">
-            <div class="area-de-atuacao">
-                <h1>Áreas de Atuação</h1>
-                <div class="item-block">
-                    <div class="item">
-                        <img src="/images/hidrante.png" alt="Hidrante">
-                        <p>Projetos de Prevenção e Combate a Incêndio.</p>
-                    </div>
-                    <div class="item">
-                        <img src="/images/pilares.png" alt="Pilares">
-                        <p>Projetos Estruturais.</p>
-                    </div>
-                    <div class="item">
-                        <img src="/images/planejamento.png" alt="Planejamento">
-                        <p>Planejamentos de Obras.</p>
-                    </div>
-                    <div class="item">
-                        <img src="/images/plano-de-projeto.png" alt="Projeto">
-                        <p>Projetos Arquitetônicos.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="project" id="portfolio">
-            <h1>Portfólio</h1>
-            <div class="project-box">
-                <div class="port">
-                    <img src="images/projeto1.png" alt="img1">
-                </div>
-                <div class="port">
-                    <img src="images/projeto2.png" alt="img2">
-                </div>
-                <div class="port">
-                    <img src="images/projeto3.png" alt="img3">
-                </div>
-                <div class="port">
-                    <img src="images/projeto4.png" alt="img3">
-                </div>
-                <div class="port">
-                    <img src="images/projeto7.png" alt="img3">
-                </div>
-                <div class="port">
-                    <img src="images/projeto6.png" alt="img3">
-                </div>
-            </div>
-        </section>
-
-
+      <section class="project" id="portfolio">
+        <h1>Portfólio</h1>
+        <div class="project-box">
+          <div class="port">
+            <img src="images/projeto1.png" alt="img1" />
+          </div>
+          <div class="port">
+            <img src="images/projeto2.png" alt="img2" />
+          </div>
+          <div class="port">
+            <img src="images/projeto3.png" alt="img3" />
+          </div>
+          <div class="port">
+            <img src="images/projeto4.png" alt="img3" />
+          </div>
+          <div class="port">
+            <img src="images/projeto7.png" alt="img3" />
+          </div>
+          <div class="port">
+            <img src="images/projeto6.png" alt="img3" />
+          </div>
+        </div>
+      </section>
     </main>
 
-
-
     <footer id="footer">
-        <div class="symbol">
-            <a href="https://www.instagram.com/construonengenharia/" target="_blank"><i
-                    class='bx bxl-instagram'></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5598921722222" target="_blank"><i
-                    class='bx bxl-whatsapp'></i></a>
+      <div class="symbol">
+        <a href="https://www.instagram.com/construonengenharia/" target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send?phone=5598921722222"
+          target="_blank"
+          ><i class="bx bxl-whatsapp"></i
+        ></a>
+      </div>
+
+      <div class="footer-align">
+        <div class="left-footer">
+          <img src="/images/logo-footer.png" alt="" />
+          <div class="teste">
+            <div class="teste2">
+              <a href=""><i class="bx bx-phone"></i></a>
+              <p>(98) 3181-7513</p>
+            </div>
+            <div class="teste2">
+              <a href=""><i class="bx bxl-whatsapp"></i></a>
+              <p>(98) 9122-3388</p>
+            </div>
+          </div>
+          <div class="location">
+            <a href=""><i class="bx bx-current-location"></i></a>
+            <p>
+              Ed. Marcus Barbosa Intelligent Office, Sala 812<br />
+              Av. dos Holandeses - Calhau <br />São Luís - MA
+            </p>
+          </div>
+        </div>
+        <div class="right-footer">
+          <ul>
+            <li><a href="#home">Página Inicial</a></li>
+            <li><a href="#quem">Quem Somos Nós? </a></li>
+            <li><a href="#atuacao">Área de Atuação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="contato.html">Contatos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-text">
+          <p>
+            Copyright &copy; 2023 by
+            <a href="https://www.instagram.com/samuka__dm/" target="_blank"
+              >Safe Company</a
+            >
+            | Todos os Direitos Reservados.
+          </p>
         </div>
 
-        <div class="footer-align">
-            <div class="left-footer">
-                <h3>ConstruON.</h3>
-                <div class="teste">
-                    <div class="teste2">
-                        <a href=""><i class='bx bx-phone'></i></a>
-                        <p>(98) 3181-7513</p>
-
-                    </div>
-                    <div class="teste2">
-                        <a href=""><i class='bx bxl-whatsapp'></i></a>
-                        <p>(98) 9122-3388</p>
-                    </div>
-                </div>
-                <div class="location">
-                    <a href=""><i class='bx bx-current-location'></i></a>
-                    <p>Ed. Marcus Barbosa Intelligent Office, Sala 812<br>
-                        Av. dos Holandeses - Calhau <br>São Luís - MA</p>
-                </div>
-            </div>
-            <div class="right-footer">
-                <ul>
-                    <li><a href="#home">Página Inicial</a></li>
-                    <li><a href="#quem">Quem Somos Nós? </a></li>
-                    <li><a href="#atuacao">Área de Atuação</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a href="contato.html">Contatos</a></li>
-                </ul>
-            </div>
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
         </div>
-
-        <div class="footer-bottom">
-            <div class="footer-text">
-                <p>Copyright &copy; 2023 by <a href="https://www.instagram.com/samuka__dm/" target="_blank">Safe
-                        Company</a> | Todos os
-                    Direitos Reservados.</p>
-            </div>
-
-            <div class="footer-iconTop">
-                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-            </div>
-        </div>
-
-
+      </div>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
