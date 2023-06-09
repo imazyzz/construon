@@ -801,6 +801,10 @@ footer {
     padding: 0 10%;
   }
 
+  header img {
+    width: 17rem;
+  }
+
   header.on .header-img {
     display: none;
   }
@@ -889,6 +893,10 @@ footer {
     font-size: 2.4rem;
     width: 30rem;
     height: 7rem;
+  }
+
+  .btn-box a {
+    font-size: 2.4rem;
   }
 
   .home-sci {
@@ -1017,7 +1025,7 @@ footer {
     margin: 18px;
   }
   .item-block .item img {
-    width: 18rem;
+    width: 15rem;
   }
 
   .item-block .item p {
@@ -1053,7 +1061,7 @@ footer {
   }
 
   .left-footer img {
-    width: 25rem;
+    width: 20rem;
   }
 
   .teste {
@@ -1063,6 +1071,12 @@ footer {
   .teste p,
   .location p {
     font-size: 2rem;
+    color: #000000;
+  }
+
+  .teste2 p {
+    font-size: 2rem;
+    color: #000000;
   }
 
   .teste2 a,
@@ -1134,6 +1148,10 @@ footer {
     width: 70rem;
     height: 70rem;
   }
+
+  .footer-text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 380px) {
@@ -1146,5 +1164,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .footer-text {
+    text-align: center;
   }
 }
