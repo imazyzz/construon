@@ -698,7 +698,7 @@ footer {
   font-size: 1.6rem;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1500px) {
   html {
     font-size: 40%;
   }
